@@ -1,0 +1,18 @@
+# Rust / Cargo
+/target/
+**/target/
+**/*.rs.bk
+*.pdb
+
+# Profiling / benchmarks
+flamegraph.svg
+perf.data*
+/criterion/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
